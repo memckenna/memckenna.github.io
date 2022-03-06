@@ -3233,14 +3233,15 @@ input, select, textarea {
 	list-style: none;
 	padding: 28px 28px 28px 28px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	align-items: center;
 }
 
 .logo-text {
 	font-size: 24px;
 	font-weight: bolder;
-	padding-bottom: 15px;
+	padding-top: 15px;
+	/* color: gray; */
 }
 
 
@@ -3261,7 +3262,8 @@ input, select, textarea {
 	font-weight: bold;
 	letter-spacing: 1px;
 	cursor: pointer;
-
+	/* color: white; */
+	/* background-color: rgb(167, 167, 167); */
 	padding: 10px 10px 10px 10px;
 }
 
@@ -3283,4 +3285,111 @@ input, select, textarea {
 
 .live-div {
 	padding-right: 10px;
+	display: flex;
+	align-items: center;
+
+}
+
+.globe {
+	padding-right: 6px;
+}
+
+.github {
+	padding-right: 6px;
+}
+
+.github-div {
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+}
+
+
+/* GET IN TOUCH */
+#three {
+	/* background-color: lightgray; */
+	width: 100%;
+}
+
+.title {
+	/* text-align: center; */
+	font-size: 35px;
+
+}
+
+.column {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.get-in-touch-container {
+	display: flex;
+	flex-direction: column;
+
+	border: 1px solid white;
+	background-color: rgb(53, 49, 49);
+	border-radius: 10px;
+}
+
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid white;
+
+}
+
+.get-in-touch-li-info {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.in-touch-info {
+	font-size: 50px;
+	padding-right: 10px;
+	color: white;
+	/* color: rgb(212, 182, 187); */
+}
+
+.in-touch-a-info {
+	display: flex;
+	flex-direction: column;
+	font-size: 40px;
+	border: none;
+	color: white;
+	/* color: rgb(212, 182, 187); */
+	padding-top: 70px;
+}
+
+
+.get-in-touch {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.get-in-touch-li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 70px 80px 0px 70px;
+}
+
+.in-touch {
+	font-size: 90px;
+	color: white;
+	/* color: rgb(212, 182, 187); */
+
+}
+
+.in-touch:hover {
+	color: #49bf9d;
+}
+
+.in-touch-a {
+	font-size: 30px;
+	border: none;
+	color: gray;
 }
