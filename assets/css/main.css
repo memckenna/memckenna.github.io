@@ -3325,15 +3325,18 @@ input, select, textarea {
 .column {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 980px;
 }
 
 .get-in-touch-container {
 	display: flex;
 	flex-direction: column;
+	max-width: 980px;
 
 	border: 1px solid white;
 	background-color: rgb(53, 49, 49);
 	border-radius: 10px;
+	width: 100%;
 }
 
 
@@ -3383,7 +3386,7 @@ input, select, textarea {
 }
 
 .in-touch {
-	font-size: 90px;
+	font-size: 70px;
 	color: white;
 	/* color: rgb(212, 182, 187); */
 
