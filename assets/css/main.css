@@ -3223,6 +3223,11 @@ input, select, textarea {
 
 /* SKILLS */
 
+.skills-img {
+	width: 100px;
+	height: 100px;
+
+}
 
 .skills-logos {
 	display: flex;
