@@ -3267,6 +3267,7 @@ input, select, textarea {
 	font-weight: bold;
 	letter-spacing: 1px;
 	cursor: pointer;
+	font-size: 14px;
 	/* color: white; */
 	/* background-color: rgb(167, 167, 167); */
 	padding: 10px 10px 10px 10px;
@@ -3279,6 +3280,7 @@ input, select, textarea {
 	font-weight: bold;
 	letter-spacing: 1px;
 	cursor: pointer;
+	font-size: 14px;
 
 
 	padding: 10px 10px 10px 10px;
@@ -3312,40 +3314,38 @@ input, select, textarea {
 
 /* GET IN TOUCH */
 #three {
-	width: 100%;
+	width: auto;
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 980px;
 }
 
 .title {
 	font-size: 35px;
-	max-width: 980px;
 }
 
 .column {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
+	/* width: 100%; */
+	width: auto;
 }
 
 .get-in-touch-container {
 	display: flex;
 	flex-direction: column;
-	max-width: 980px;
-
+	/* max-width: 980px; */
 	border: 1px solid white;
 	background-color: rgb(53, 49, 49);
 	border-radius: 10px;
-	width: 100%;
+	width: auto;
 }
-
 
 .contact-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-bottom: 1px solid white;
-
 }
 
 .get-in-touch-li-info {
@@ -3370,7 +3370,6 @@ input, select, textarea {
 	/* color: rgb(212, 182, 187); */
 	padding-top: 70px;
 }
-
 
 .get-in-touch {
 	display: flex;
