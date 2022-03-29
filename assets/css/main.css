@@ -3224,8 +3224,10 @@ input, select, textarea {
 /* SKILLS */
 
 .skills-img {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
+	/* width: 100px;
+	height: 100px; */
 
 }
 
@@ -3317,7 +3319,7 @@ input, select, textarea {
 	width: auto;
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 980px;
+	max-width: 842px;
 }
 
 .title {
